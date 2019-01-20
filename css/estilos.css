@@ -1,0 +1,188 @@
+/*
+###############################
+CREADOR: Juan Fermin Beresiarte
+###############################
+*/
+
+* {
+  box-sizing: border-box;
+}
+
+.retraso1 {
+  -webkit-animation-delay: 1s;
+  -moz-animation-delay: 1s;
+  animation-delay: 1s;
+}
+
+.retraso2 {
+  -webkit-animation-delay: 2s;
+  -moz-animation-delay: 2s;
+  animation-delay: 2s;
+}
+
+body {
+	/*background-color: rgb(100, 0, 140);*/
+  font-family: sans-serif;
+}
+
+/* Create three columns of equal width */
+.columns {
+  float: left;
+  width: 33.3%;
+  padding: 8px;
+}
+
+.espacio {
+	height: 30px;
+
+}
+
+/* Style the list */
+.price {
+  list-style-type: none;
+  border: 1px solid #eee;
+  margin: 0;
+  padding: 0;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+/* Add shadows on hover */
+.price:hover {
+  box-shadow: 0 8px 12px 0 rgba(0,0,0,0.2)
+}
+
+/* Pricing header */
+.price .header {
+  background-color: #111;
+  color: white;
+  font-size: 25px;
+}
+
+/* List items */
+.price li {
+  border-bottom: 1px solid #eee;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Grey list item */
+.price .grey {
+  background-color: #eee;
+  font-size: 20px;
+}
+
+/* The "Sign Up" button */
+.button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 10px 25px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.contenedor-ofertas {
+	padding-left: 50px;
+	padding-right: 50px;
+  animation-delay: 0.5s;
+}
+
+.curso-container {
+  color: white;
+  width: 40%;
+  height: 70px;
+  position: top left;
+  background-color: #95a5a6;
+  margin: 10px;
+  border-radius: 9px;
+}
+
+.curso-container img {
+  width: 10%;
+  height: calc(100% - 15px);
+  margin-top: 5px;
+  margin-left: 5px;
+  float: left;
+}
+
+.curso-container a {
+  font-size: 40px;
+  color: white;
+}
+
+.curso-container:hover {
+  width: 50%;
+  box-shadow: 0 8px 12px 0 rgba(0,0,0,0.2)
+  -webkit-transform-origin: center bottom;
+  transform-origin: center bottom;
+}
+
+.cursos {
+  background-color: #eee;
+  margin-top: 20px;
+  width: 100%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  animation-delay: 0.3s;
+}
+
+.info {
+  background-color: #eee;
+  margin-top: 20px;
+  width: 100%
+
+}
+
+.info img {
+  border: 5px black solid;
+  border-radius: 150px;
+}
+/* Change the width of the three columns to 100%
+(to stack horizontally on small screens) */ 
+@media only screen and (max-width: 600px) {
+  .columns {
+    width: 100%;
+  }
+  table {
+  	width: 100%;
+  	border-collapse: separate;
+  }
+}
+
+table {
+	width: 91%;
+	text-align: center;
+	text-decoration: none;
+/*	background-color: #eee;*/
+	background-color: white;
+	border-collapse: separate !important;
+	border: black 3px solid;
+}
+
+td {
+	background-color: white;
+}
+
+.init {
+	height: 35px;
+	background-color: #eed;
+	text-align: center;
+	text-decoration: none;
+	border-color: black;
+	color: black;
+	font: 18px sans-serif;
+}
+
+.grey-color {
+	background-color: #eee !important;
+}
+
+.pie-de-pagina {
+	background-color: #eee;
+	width: 100%;
+	height: 50px;
+	margin-top: 10px;
+
+}
